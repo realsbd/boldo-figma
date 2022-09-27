@@ -1,0 +1,160 @@
+@font-face {
+    font-family: inter;
+    src: url('/font/Inter-VariableFont_slnt\,wght.ttf');
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    text-align: center;
+    box-sizing: border-box;
+    /* z-index: -2; */
+}
+
+h1, h2, h3, h4, h5, h6, p, li, a {
+    font-family: inter, sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 400;
+    line-height: 3rem;
+}
+h1 {
+    font-size: 48px;
+    line-height: 72px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.hero-section {
+    background-color: #0a2640;
+    z-index: -10;
+}
+.circle {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-color: #1c3d5b;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 100%;
+    right: 0;
+    opacity: 20%;
+}
+
+.container  {
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    position: relative;
+    padding-bottom: 56px;
+    z-index: 1;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    /* padding-top: 56px;
+    padding-left: 100px; */
+}
+.logo {
+    width: 50%;
+    text-align: left;
+}
+ul {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+    margin: 5px 10px;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+ul.nav-list {
+    display: flex;
+    width: 50%;
+}
+
+.nav-items {
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    padding-top: 10px;
+}
+
+.nav-items>a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-items.btn>a {
+    color: black;
+
+}
+
+.btn {
+    border-radius: 25px;
+    color: black;
+    background-color: #fff;
+}
+
+/* jumbotron */
+.jumbotron {
+    margin-top: 3rem;
+    display: flex;
+    gap: 46px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.cta-1 {
+    border-radius: 56px;
+    padding: 16px 56px;
+    color: black;
+    background-color: #69e6a6;
+}
+.cta-2 {
+    border-radius: 56px;
+    padding: 16px 56px;
+    color: #fff;
+    border: #fff solid 2px;
+}
+
+.left  {
+    text-align: left;
+    color: #fff;
+    flex-grow: 2;
+    /* margin: 56px auto; */
+}
+
+.left>p {
+    margin-bottom: 40px;
+}
+.left>a {
+    margin-right: 24px;
+}
+
+.right {
+    flex-grow: 1;
+}
+
+.right>img {
+    width: 450px;
+}
+
+.logo-wall {
+    margin-top: 64px;
+}
