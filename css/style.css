@@ -1,11 +1,3 @@
-@font-face {
-    font-family: manrope;
-    src: url('/font/Manrope-VariableFont_wght.ttf');
-}
-@font-face {
-    font-family: inter;
-    src: url('/font/Inter-VariableFont_slnt\,wght.ttf');
-}
 * {
     margin: 0;
     padding: 0;
@@ -18,11 +10,12 @@ body {
     /* z-index: -2; */
 }
 
-h1, h2, h3, h4, h5, h6, p, li, a {
-    font-family: manrope, inter;
+p, li, a {
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1, h2, h3, h4 {
+    font-family: 'Manrope', sans-serif;
     font-weight: 400;
     line-height: 72px;
 }
@@ -36,7 +29,7 @@ h2 {
 }
 
 p {
-    font-family: inter;
+    /* font-family: inter; */
     font-size: 20px;
     line-height: 32px;
 }
@@ -276,7 +269,7 @@ ul.nav-list {
     width: 80%;
     padding: 5px 10px;
     margin-bottom: 24px;
-    box-shadow: #000 0 0 3px;
+    border: 1px solid black;
 }
 
 .bulletin-2 p {
@@ -296,4 +289,31 @@ ul.nav-list {
     background-color: #0a2640;
     padding: 16px 56px;
     margin-top: 32px;
+}
+
+#review {
+    background-color: #0a2540;
+    color: #fff;
+    text-align: left;
+}
+
+.review-heading {
+    display: flex;
+}
+.review-heading h1 {
+    flex-basis: 70%;
+}
+
+.review-heading .review-icon {
+    flex-flow: end;
+}
+
+.material-symbols-outlined.icons {
+    width: 72px;
+    margin: 28px;
+    font-size: 72px;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #0a2540;
+    padding: 10px;
 }
