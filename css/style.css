@@ -309,11 +309,49 @@ ul.nav-list {
 }
 
 .material-symbols-outlined.icons {
-    width: 72px;
+    width: 60px;
     margin: 28px;
-    font-size: 72px;
+    font-size: 60px;
     background-color: #fff;
     border-radius: 50%;
     color: #0a2540;
     padding: 10px;
+}
+
+.testimony-group {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.testimony {
+    border-radius: 12px;
+    background-color: #fff;
+    color: #000;
+    width: 30%;
+    margin: 56px 22px;
+    padding: 40px;
+    height: fit-content;
+}
+
+.testimony .testimony-footer {
+    margin-top: 40px;
+    display: flex;
+    /* flex-grow: 1 8; */
+}
+
+.testimony-img {
+    width: 58px;
+    height: 58px;
+    margin-right: 16px;
+}
+.testimony-img>img {
+    border-radius: 50%;
+    width: 100%;
+    height: inherit;
+}
+
+.testimony-footer .details {
+    /* font-size: medium; */
+    font-size: 15px;
+    color: #0a2540;
 }
